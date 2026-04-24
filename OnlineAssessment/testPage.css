@@ -1,0 +1,285 @@
+@import url('./index.css');
+@import url("./instruction.css");
+
+.testTitleSc .testNameQCnt{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.testTitleSc .testNameQCnt .qPaperCnt{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.testTitleSc .testNameQCnt .qPaperCnt p{
+    color: var(--primary-headingclr);
+    font-size: 16px;
+}
+.testTitleSc .testNameQCnt h4{
+    color: #228EBD;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 56px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.testTitleSc .testNameQCnt h4 span{
+    color: var(--primary-headingclr);
+    font-size: 14px;
+    font-weight: 500;
+}
+.testTitleSc{
+    margin-top: 16px;
+    margin-bottom: 30px;
+    border-bottom: 4px solid #4A4A4A;
+}
+.qFormCnt .Questions.playFairHeading{
+    color: var(--primary-headingclr);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 150%;
+}
+.qFormCnt .QandMarkCount{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 18px;
+    padding: 10px 20px;
+}
+.qFormCnt .QandMarkCount p{
+    display: flex;
+    white-space: nowrap;
+    background-color: #228EBD;
+    padding: 8px;
+    border-radius: 6px;
+    font-size: 16px;
+    color: var(--primary-white);
+    font-weight: 500;
+}
+.qFormCnt label{
+    color: #3A3E41;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 56px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 30px;
+}
+.qFormCnt label:hover{
+    background-color: #F5F5F5;
+}
+.qFormCnt{
+    -webkit-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.1);
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.1);
+    border-radius: 14px;
+    margin-bottom: 24px;
+}
+.QNumberAndbuttonsContainer .buttonsContainer{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.QNumberAndbuttonsContainer .buttonsContainer button{
+    background-color: #06435D;
+    color: var(--primary-white);
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    padding: 14px 28px;
+}
+.QNumberAndbuttonsContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px;
+    margin-bottom: 44px;
+}
+.qOutOfQ.playFairHeading{
+    color: var(--primary-headingclr);
+    font-size: 16px;
+    font-weight: 600;
+}
+.qOutOfQUlCnt li{
+    color: #3A3E41;
+    font-size: 15px;
+}
+.qOutOfQUlCnt li::marker {
+    color: #1073D6;
+}
+.qOutOfQUlCnt{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 24px;
+    column-gap: 74px;
+}
+.timerAndQPaletteCnt .progress-bar{
+    background-color: #06435D;
+}
+.timerAndQPaletteCnt .progress{
+    height: 8px;
+}
+.progressBarCnt p{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: var(--primary-headingclr);
+    font-weight: 500;
+}
+.progressBarCnt{
+    margin-bottom: 18px;
+}
+.timerCnt .negativeMarkresultCnt{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 24px;
+}
+.timerCnt .title.playFairHeading{
+    color: var(--primary-headingclr);
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.timerCnt .negativeMarkresultCnt h6{
+    color: var(--primary-headingclr);
+    font-size: 16px;
+    font-weight: 600;
+}
+.timerCnt .negativeMarkresultCnt p{
+    color: #FF2F2F;
+    font-size: 16px;
+    font-weight: 600;
+}
+.timerCnt .eTBtnCnt{
+    text-align: center;
+}
+.timerCnt .eTBtnCnt button{
+    background: #B31F1A;
+    background: linear-gradient(0deg, rgba(179, 31, 26, 1) 0%, rgba(208, 43, 37, 1) 100%);
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    color: var(--primary-white);
+    font-weight: 600;
+}
+.timerCnt{
+    padding: 22px 18px 26px;
+    border-radius: 12px;
+    -webkit-box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.1);
+-moz-box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.1);
+box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.1);
+margin-bottom: 25px;
+}
+.qPaletteCnt{
+    -webkit-box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.1);
+-moz-box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.1);
+box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.1);
+padding: 16px 12px 26px;
+}
+.qPaletteCnt h6{
+    color: var(--primary-headingclr);
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+.qNumbersCnt a{
+    font-size: 11px;
+    color: #06435D;
+    background-color: #D9D9D9;
+    padding: 10px 12px;
+    text-decoration: none;
+    border-radius: 25px;
+    text-align: center;
+}
+.qNumbersCnt .active{
+    background-color: #39A0CC;
+    color: var(--primary-white);
+}
+.qPaletteCnt .qNumbersCnt{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    row-gap: 18px;
+    column-gap: 8px;
+        margin-bottom: 14px;
+}
+.highlightsUl li{
+    color: #0F0F0F;
+    font-size: 14px;
+}
+.highlightsUl .answered::marker {
+    color: #8378E9;
+}
+.highlightsUl .notAnswered::marker {
+    color: #5FBBBE;
+}
+.highlightsUl .reviews::marker {
+    color: #2D99D0;
+}
+.highlightsUl{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 64px;
+    row-gap: 14px;
+}
+.QAndQPaletteSc{
+    margin-bottom: 44px;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199.9px){
+    .qPaletteCnt .qNumbersCnt{
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991.9px){
+    .qPaletteCnt .qNumbersCnt{
+        grid-template-columns: repeat(10, 1fr);
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 767.9px){
+    .QNumberAndbuttonsContainer{
+        flex-direction: column;
+    }
+    .qPaletteCnt .qNumbersCnt {
+    grid-template-columns: repeat(8, 1fr);
+    column-gap: 18px;
+}
+}
+
+@media screen and (max-width: 575.9px){
+    .testTitleSc .testNameQCnt h4{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .testTitleSc .testNameQCnt{
+        flex-direction: column-reverse;
+    align-items: flex-start;
+    gap: 18px;
+    padding-bottom: 12px;
+    }
+    .qFormCnt .QandMarkCount{
+        flex-direction: column-reverse;
+        padding: 10px 10px;
+    }
+    .QNumberAndbuttonsContainer{
+        flex-direction: column;
+    }
+    .QNumberAndbuttonsContainer .buttonsContainer{
+        flex-wrap: wrap;
+    justify-content: center;
+    }
+    .qPaletteCnt .qNumbersCnt{
+        grid-template-columns: repeat(6, 1fr);
+    }
+    .testTitleSc .testNameQCnt h4{
+        line-height: 26px;
+    }
+}
